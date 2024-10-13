@@ -38,12 +38,12 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('collections.urls')),
-   # path('request-count/', request_count, name='request_count'),
+   
 ]
 from django.urls import path
-from .views import fetch_movies  # Import your fetch_movies function
+from .views import fetch_movies  
 
 urlpatterns = [
-    path('movies/', fetch_movies, name='fetch_movies'),  # Add this line
-    # Other URL patterns...
+    path('movies/', fetch_movies, name='fetch_movies'),  
+    
 ]

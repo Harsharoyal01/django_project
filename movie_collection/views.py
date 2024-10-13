@@ -3,8 +3,8 @@ import requests
 import collections
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from collections.models import Movie
-from collections import Counter  # Correctly imported from collections
+from .models import Movie
+from collections import Counter  
 
 @api_view(['GET'])
 def fetch_movies(request):
