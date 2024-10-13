@@ -1,4 +1,4 @@
-# Movie Collection Web Application with Django
+# Movie Collection with Django
 
 ## Overview
 
